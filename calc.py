@@ -40,7 +40,7 @@ def main():  # Wrapper function
     b = int(input('Please type the second number: '))
     op = input(
         'What kind of operation would you like to do?\'
-        \nChoose between '+, -, *, / : ')
+        \nChoose between "+, -, *, /" : ')
 
     print(calc(a, b, op))
 
